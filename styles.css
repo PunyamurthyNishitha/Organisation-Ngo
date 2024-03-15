@@ -1,0 +1,381 @@
+* {  
+    margin: 0; 
+    font-family: Arial; 
+    border: border-box; 
+    width:100%;  
+} 
+
+.head-img {
+    align-items:center; 
+    background-color: white; 
+    background-size: cover; 
+    display: inline; 
+    size: 0cap;  
+} 
+
+.options {
+    align-items: center; 
+    display: inline-block; 
+    font-size: 20px;  
+    font-family: Verdana; 
+    color:blueviolet; 
+    padding: 1rem; 
+    text-align: center; 
+    justify-content: baseline;       
+} 
+
+
+.donate{
+    width:100%; 
+     
+    background-color: black; 
+    text-align: center;  
+} 
+
+
+.main { 
+    text-align: center; 
+    justify-content: center;  
+
+}
+
+
+.main-img { 
+    width: 100%; 
+    display: flex; 
+    background-size: cover; 
+    height:500px;    
+} 
+
+
+.l2nd { 
+    border: 2px solid white; 
+    height: 400px; 
+    width: 100%; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    margin-left: 5px; 
+    background-color: white;  
+    display: flex; 
+    text-align: center; 
+    justify-content: center;  
+
+} 
+
+
+
+
+.d-but {
+    border-radius: 1px; 
+    width: 100%; 
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+
+
+} 
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Head-img styles */
+.head-img {
+    margin-bottom: 20px;
+}
+
+.head-img img {
+    width: 150px; 
+}
+
+/* Options styles */
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options div {
+    margin-bottom: 10px;
+}
+
+.options a {
+    text-decoration: none;
+    color: blue; 
+} 
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main image styles */
+.main-img {
+    position: relative; 
+    margin-bottom: 20px;
+}
+
+.main-img img {
+    width: 100%;
+    display: block;
+}
+
+/* Donate button styles */
+.donate-button {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    padding: 5px 10px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Box styles */
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box div {
+    width: 30%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    margin-bottom: 5px;
+}
+
+.box p {
+    margin-bottom: 10px;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+/* Main image styles */
+.main-img {
+    position: relative;
+    margin-bottom: 20px; 
+} 
+
+.main-img img {
+    width: 100%;
+    display: block;
+}
+
+/* Foundation text styles */
+.foundation-text {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: #fff; 
+    font-size: 50px;  
+    font-weight: bold; 
+    z-index: 1; 
+    display: flex; 
+    align-items: center; 
+} 
+
+
+
+
+/* Donate button styles */
+.donate-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: green; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: auto;
+} 
+
+/* Box styles */
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box div {
+    flex: 0 0 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    margin-bottom: 5px;
+}
+
+.box p {
+    margin-bottom: 10px;
+} 
+
+
+
+
+
+footer  {
+    background-color:black; 
+    padding: 20px; 
+    text-align: center; 
+    height: 5px;  
+}
+.footer-content {
+    color:white; 
+}
+
+.footer-content p {
+    margin: 5px 0;
+} 
+
+
+
+
+.opened {
+    width: 100%; 
+    height: 500px; 
+    text-align: center; 
+    size: 50px; 
+    background-color: aquamarine; 
+} 
+
+
+.main-img1 {
+    position: relative;
+    margin-bottom: 20px; 
+    width: 100%; 
+    height: 50px;  
+} 
+
+
+.bottom {
+    width: 100%; 
+    height:150px;  
+    align-items: center; 
+    box-sizing: border-box; 
+    background-color: black; 
+    color: white; 
+} 
+.bottom h2 p{ 
+    text-align: center; 
+
+} 
+
+
+
+
+.login-button { 
+        position: absolute;  
+        top: 10px; 
+        right: 20px; 
+        padding: 10px 20px;
+        background-color: green; 
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px; 
+        font-size: 12px; 
+        width: auto; 
+} 
+.social-icons {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+}
+
+.social-icon {
+    width: 30px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    margin-left: 10px; /* Add margin between icons */
+} 
+.login-in1 {
+    background-color: #007bff; 
+
+} 
+
+
+.ima { 
+        position: relative;
+        margin-bottom: 20px; 
+        width: 100%; 
+        height: 50px; 
+        background-size: cover; 
+        display: flex;  
+} 
+
+
+.hea {
+    color: blue; 
+    align-items: center;  
+} 
+.buta { 
+    align-items: center; 
+    justify-content: space-evenly;   
+} 
+.but1{ 
+    position: absolute; 
+
+    background-color: white; 
+    color: green; 
+    border: none;
+    cursor: pointer;
+    width: auto; 
+    left: 20px; 
+    right: 20px; 
+
+} 
